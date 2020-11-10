@@ -1,0 +1,16 @@
+import os ### import是导入 os这个模块、库。OS就是“operating system”，os提供的就是各种python程序和操作系统进行交互的接口。此模块报错，会抛出OSError。
+import random # Python内置的random库主要用于产生各种 分布的伪随机数序列。
+import time
+periods = 11000 #periods是周期
+m = 60 #将m赋值60
+n = 102 #给n赋值102
+cells = [[0]* n for i in range(m)]
+
+"""
+给cells赋值。中括号[]表示列表，用逗号还分隔其中的元素
+使用 * 运算符可让python导入模块中的所有函数
+for 变量 in 集合 （for循环）
+"""
+# 0 -x, 1 +y, 2 +x, 3 -y
+direct = random.randint(0, 3) # randint( a, b)	生成一个［a,b］之间的整数
+randint( a, b)	生成一个［a,b］之间的整数)
