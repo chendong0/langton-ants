@@ -14,3 +14,4 @@ for 变量 in 集合 （for循环）
 # 0 -x, 1 +y, 2 +x, 3 -y
 direct = random.randint(0, 3) # randint( a, b)	生成一个［a,b］之间的整数
 randint( a, b)	生成一个［a,b］之间的整数)
+cells = [[0]* n for i in range(m)]
